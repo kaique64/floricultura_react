@@ -1,0 +1,37 @@
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css';
+
+export default class index extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+
+  }
+
+  render() {
+    return (
+      <div>
+        <header className = 'header'>
+            <img 
+            src = 'data:image/png;base64,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'
+            />
+
+            <Link to = '/'> Home </Link>
+            <Link to = '/plantas'> Plantas </Link>
+            <Link to = '/cadastrar'> Cadastrar </Link>
+            <Link to = '/empresa'> História </Link>
+            {/* <Link to = '/logar'> Logar </Link> */}
+
+            <div class="container" onClick = {this.clickBurger}>
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+
+        </header>
+      </div>
+    );
+  }
+}

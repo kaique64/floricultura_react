@@ -1,0 +1,25 @@
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: none;
+    outline: none;
+    margin: 10px;
+    width: 240px;
+}
+
+/* .btnCadastrar{
+    width: 240px;
+    border: none;
+    background-color: rgb(49, 211, 49);
+    color: black;
+    height: 25px;
+    border-radius: 10px;
+} */

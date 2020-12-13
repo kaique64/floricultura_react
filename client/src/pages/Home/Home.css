@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imgs{
+    width: 100%;
+}
+
+.imgsCompras{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgsCompras{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 35px;
+        padding: 25px;
+    }
+
+    .imgsCompras img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+    }
+  }
+
+.imgsCompras button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgb(117, 230, 113);
+    padding-top: 35px;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.imgsCompras button:hover{
+    transition: all .5s ease-in-out;
+    background-color: rgb(25, 216, 25);
+    transform: scale(1.01);
+}

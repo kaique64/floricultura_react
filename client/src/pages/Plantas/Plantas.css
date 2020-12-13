@@ -1,0 +1,69 @@
+#flor,
+#patriocinadores,
+#terra{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#flor, #patriocinadores{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#flor{
+    background: rgb(77, 255, 77);
+}
+
+#terra{
+    background: rgb(201, 70, 70);
+}
+
+#patriocinadores{
+    background: #776f6f;
+}
+
+#patriocinadores img{
+    display: flex;
+    flex-direction: row;
+}
+
+/* HashLinks */
+.linksHash a{
+    color: white;
+    text-decoration: none;
+}
+
+.linksHash{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 40px;
+    background-color: rgb(56, 56, 56);
+}
+
+.imgsPatriocinadores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgsPatriocinadores img{
+    display: flex;
+    flex-direction: row;
+    border-radius: 100px;
+    height: 140px;
+    width: 140px;
+    filter: grayscale(100%);
+    margin-top: 10px;
+}
+
+.imgsPatriocinadores img:hover{
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+    filter: grayscale(0%);
+}
