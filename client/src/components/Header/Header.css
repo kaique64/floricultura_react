@@ -30,6 +30,8 @@
     background-color: rgb(97, 175, 97);
 }
 
+/* Ediçao do scroll */
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
