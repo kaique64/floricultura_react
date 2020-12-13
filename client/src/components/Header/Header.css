@@ -7,7 +7,7 @@
     flex-direction: row;
     width: 100%;
     height: 80px;
-    background-color: rgb(97, 175, 97)
+    background-color: rgb(97, 175, 97);
 }
 
 .header a{
@@ -27,36 +27,26 @@
     justify-content: space-between;
     height: 60px;
     padding: 10px;
-    background-color: rgb(97, 175, 97)
+    background-color: rgb(97, 175, 97);
 }
 
-/* @media only screen and (max-width: 600px) {
-    .header a{
-        visibility: hidden;
-    }
-
-    .container {
-        display: inline-block;
-        cursor: pointer;
-    }
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
   
-    .bar1, .bar2, .bar3 {
-        width: 35px;
-        height: 5px;
-        background-color: #FFF;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none;
+  }
   
-    .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        transform: rotate(-45deg) translate(-9px, 6px);
-    }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(97, 175, 97);
+  }
   
-    .change .bar2 {opacity: 0;}
-  
-    .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        transform: rotate(45deg) translate(-8px, -8px);
-    }
-} */
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: none;
+  }
